@@ -17,7 +17,7 @@ The steps to be followed are listed below:
 2. Once the CSS `<style>` code has been added, it can be used anywhere in the section inside the HTML’s `<div class=”…”>` tag to create a dropdown menu.
 ![Image 3]({{ "/assets/images/storymaps/Capture008.PNG" | absolute_url }})
 
-3. The items of the dropdown menu can also be made interactive by using the similar trick as explained in the [previous post](/storymaps/2018/03/21/Story-Actions-on-pictures.html). Click on save when done.
+3. The items of the dropdown menu can also be made interactive by using the similar trick as explained in the [previous post](/storymaps/2018/03/21/Story-Actions-on-pictures.html).
 
 The CSS styling used in the above example can be viewed at the [Story-Maps-Interface](https://github.com/ehasnain/Story-Maps-Interface) repository.
 
