@@ -1,6 +1,22 @@
 ---
 layout: default
 ---
+<script type="text/javascript" src="assets/instafeed/instafeed.min.js"></script>
+{% assign imgurl = '{{image}}' %}
+{% assign imgcptn = '{{caption}}' %}
+{% assign imglink = '{{link}}' %}
+
+<script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'user',
+        userId: '222432689',
+        accessToken: '222432689.1677ed0.7ec38ea77f434682a6b7d94de2bd5bad',
+		limit: 3,
+		resolution: 'standard_resolution',
+		template: '<div class="gallery"><a target="_blank" href="{{imglink}}"><img src="{{imgurl}}" alt="Instagram"></a><div class="desc">{{imgcptn}}</div></div>'
+    });
+    feed.run();
+</script>
 
 <div class="home">
   {%- if page.title -%}
@@ -27,8 +43,8 @@ layout: default
       </li>
       {%- endfor -%}
     </ul>
-
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+	<h2 class="post-list-heading">Instagram Feed</h2>
+	<div id="instafeed"></div>
   {%- endif -%}
 
 </div>

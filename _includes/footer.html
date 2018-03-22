@@ -26,8 +26,11 @@
       </div>
 	  
 	  <div class="footer-col footer-col-3">
-        <p> <br> &copy; &#32; Copyright &#32; {{- site.time | date: "%Y" | escape -}}</p>
+        <p> <br> &copy; &#32; {{ site.author | escape }} &#32; {{- site.time | date: "%Y" | escape -}}</p>
       </div>
+	  <div class="footer-col footer-col-1">
+		<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+	  </div>
     </div>
 
   </div>
