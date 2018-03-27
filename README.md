@@ -3,6 +3,7 @@ Just go ahead and read up on [how to install Jekyll](https://jekyllrb.com/). It'
 
 Download this repository [here](https://github.com/iwiedenm/jekyll-theme-massively-src/archive/master.zip) and save it to any folder you want.
 
+<<<<<<< HEAD
 Open a terminal window or a command line and ```cd``` to that location.
 
 Then enter: ```bundle exec jekyll serve```. You can now access your new Jekyll site from [http://127.0.0.1:4000/](http://127.0.0.1:4000/). Have fun exploring your new site!
@@ -58,3 +59,9 @@ Credits:
 		Skel (skel.io)
 		Scrollex (github.com/ajlkn/jquery.scrollex)
 ```
+=======
+## Credits:
+1. [Instafeed.js](http://instafeedjs.com/):  Instagram javascript plugin
+2. [w3schools.com](https://www.w3schools.com/): CSS templates, icons etc.
+3. [PDF.js](https://mozilla.github.io/pdf.js/): Javascript plugin for Portable Document Format (PDF) viewer.
+>>>>>>> cb0776f01748693403f8f0eef66377ff6bbec57c
