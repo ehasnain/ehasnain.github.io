@@ -1,0 +1,23 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../assets/instafeed/style.css">
+<script type="text/javascript" src="../assets/instafeed/instafeed.min.js"></script>
+		
+{% assign imgurl = '{{image}}' %}
+{% assign imgcptn = '{{caption}}' %}
+{% assign imglink = '{{link}}' %}
+{% assign imglks = '{{likes}}' %}
+{% assign imgcmnts = '{{comments}}' %}
+{% assign imglctn = '{{location}}' %}
+
+<script type="text/javascript">
+	var feed = new Instafeed({
+		get: 'user',
+		userId: '222432689',
+		accessToken: '222432689.1677ed0.7ec38ea77f434682a6b7d94de2bd5bad',
+		limit: 2,
+		resolution: 'standard_resolution',
+		template: '<div><a  class="image medium"  target="_blank" href="{{imglink}}"><img src="{{imgurl}}" style="width:100%"></a><div class="box"><p style="white-space: initial;">{{imgcptn}}</p></div></div>'
+						
+	});
+	feed.run();
+</script>

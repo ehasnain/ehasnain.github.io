@@ -1,0 +1,6 @@
+<ul class="links">
+  <li class="{% if page.url == "/" %} active {% endif %}"><a href="{{ "/" | absolute_url }}">Home</a></li>
+  <li class="{% if page.url contains '/about/' %} active {% endif %}"><a href="{{ "/about/" | absolute_url }}">About</a></li>
+  <li class="{% if page.url contains '/blog/' %} active {% endif %}"><a href="{{ "/blog/" | absolute_url }}">Blogs</a></li>
+  <li class="{% if page.url contains '/cv.html' %} active {% endif %}"><a href="{{ "/cv.html" | absolute_url }}" target="_blank" title="Open in a new tab to view or print">CV <img src="/images/external-link-alt.svg" height= "10px" width= "auto" ></img></a></li>
+</ul>
