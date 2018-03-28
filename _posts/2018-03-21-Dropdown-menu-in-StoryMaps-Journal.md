@@ -9,15 +9,15 @@ image: "/images/storymaps/Capture006.PNG"
 
 
 
-![Image 1]({{ "/images/storymaps/Capture006.PNG" | absolute_url }})
+![Image 1]("/images/storymaps/Capture006.PNG")
 
 The steps to be followed are listed below:
 
 1. The StoryMaps editor supports CSS styling in HTML. In the *source code* mode of the editor the `<style type=”text/css”> … </style>` tag with the desired CSS- styling can be added. For a clean appearance and to avoid conflicts, it should be added at the beginning of the section. <br>
-![Image 2]({{ "/images/storymaps/Capture007.PNG" | absolute_url }})
+![Image 2]("/images/storymaps/Capture007.PNG")
 
 2. Once the CSS `<style>` code has been added, it can be used anywhere in the section inside the HTML’s `<div class=”…”>` tag to create a dropdown menu. <br>
-![Image 3]({{ "/images/storymaps/Capture008.PNG" | absolute_url }})
+![Image 3](/images/storymaps/Capture008.PNG")
 
 3. The items of the dropdown menu can also be made interactive by using the similar trick as explained in the [previous post](/storymaps/2018/03/21/Story-Actions-on-pictures.html).
 
