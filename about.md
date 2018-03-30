@@ -13,7 +13,7 @@ sitemap:
 
 I'm Ehtesham Hasnain. I am a civil engineer, surveyor, geo-engineer and a developer. I am a student at the University of Stuttgart, Germany.
 
-I am very obsessed with programming, and I like learning new technologies. I love to explore the wonders and the possibilities of Machine Learning and Artificial Intelligence in solving real world problems. You can find some of my works on [GitHub](https://github.com/ehasnain).
+I am very obsessed with programming, and I like learning new technologies. I love to explore the wonders and the possibilities of Machine Learning and Artificial Intelligence in solving the real world problems. You can find some of my works on [GitHub](https://github.com/ehasnain).
 
 {% comment %} 
 ### Content is Imortant
