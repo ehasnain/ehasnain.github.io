@@ -1,4 +1,4 @@
-#GitHub repository for ehasnain.github.io
+# GitHub repository for ehasnain.github.io
 
 ## Credits:
 1. [Instafeed.js](http://instafeedjs.com/):  Instagram javascript plugin
